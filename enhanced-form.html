@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <title>Enhanced HTML5 Form Example</title>
+
+    </head>
+    <body>
+
+        <header>
+            <h1>Enhanced HTML5 Form & Content Showcase</h1>
+            <p>This page demonstrates HTML lists, tables, media, and a complete form with HTML validation</p>
+        </header>
+        <main>
+            <section>
+                <h2>Popolar Web Development Topics</h2>
+                <ul>
+                    <li>HTML5 & Sematic Tags</li>
+                    <li>CSS Styling & Layout</li>
+                    <li>Javascript Basics</li>
+                    <li>Responsive Design</li>
+                </ul>
+
+                <h3>Steps to Build a Web Page</h3>
+                <ol>
+                    <li>Plan your structure</li>
+                    <li>Write sematic HTML</li>
+                    <li>Style with CSS</li>
+                    <li>Test on multiple devices</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>HTML5 Input Types Reference</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Input Type</th>
+                            <th>Description</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>text</td>
+                            <td>Single-line text input</td>
+                        </tr>
+
+                        <tr>
+                            <td>email</td>
+                            <td>Validates email formats</td>
+                        </tr>
+
+                        <tr>
+                            <td>date</td>
+                            <td>Provides a date picker</td>
+                        </tr>
+
+                        <tr>
+                            <td>number</td>
+                            <td>Accepts numeric values</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>HTML5 Media Example</h2>
+                <img src="Marvin.JPG" alt="My passprt photo" width="100"
+                <audio controls>
+                    <source src="Nviirithestoryteller.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <video controls width="250">
+                    <source src="The bear.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+
+            <section>
+                <h2>Registration Form</h2>
+                <form action="#" method="post" autocomplete="on">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" required>
+
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" min="0" required>
+
+                         <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="07XXXXXXXX" pattern="[0-9]{10}" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Account Details</legend>
+
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+
+                        <label for="country">Country:</label>
+                        <select id="country" name="country" required>
+                            <option value="">Select your country</option>
+                            <option value="kenya">Kenya</option>
+                            <option value="uganda">Uganda</option>
+                            <option value="tanzania">Tanzania</option>
+                        </select>
+
+                        <label>
+                            <input type="checkbox" id="terms" name="terms" required>
+                            I agree to the terms and conditions
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <label for="bio">Bio:</label>
+                        <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself...></textarea>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Marvin Wisdom</p>
+        </footer>
+    </body>
+</html>
